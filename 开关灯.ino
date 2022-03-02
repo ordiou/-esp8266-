@@ -7,9 +7,9 @@
 #include <Servo.h>
 
 U8G2_SSD1306_128X64_NONAME_F_HW_I2C u8g2(U8G2_R2, U8X8_PIN_NONE);
-char auth[] = "34cbeb331e38";
-char ssid[] = "nova 6 (5G)-m";
-char pswd[] = "qwertyuiop";
+char auth[] = "...........";
+char ssid[] = "............";
+char pswd[] = "..........";
 volatile int state;
 Servo servo_16;
 BlinkerButton Button1("dd");
